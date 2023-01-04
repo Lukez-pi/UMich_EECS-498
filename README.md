@@ -1,1 +1,1 @@
-# 2019_UMich_EECS-498-007
+This is a repository that contains my solution for assignments from the course EECS 498-007 [(2019 version)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/). The course teaches deep learning methods used for computer vision applications.
