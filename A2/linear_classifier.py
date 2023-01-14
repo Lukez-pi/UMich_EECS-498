@@ -388,10 +388,6 @@ def test_one_param_set(cls, data_dict, lr, reg, num_iters=2000):
   y_val_pred = cls.predict(data_dict['X_val'])
   val_acc = 100.0 * (data_dict['y_val'] == y_val_pred).double().mean().item()
 
-  ############################################################################
-  #                            END OF YOUR CODE                              #
-  ############################################################################
-
   return cls, train_acc, val_acc
 
 
@@ -486,9 +482,7 @@ def softmax_loss_vectorized(W, X, y, reg):
   exp_scores = (scores + normalization_factors).exp()
   
   probs = exp_scores / exp_scores.sum(axis=1).reshape(-1,1)
-  row_idx = [i for i in range(num_train)]
-  correct_class_idx = [y[i] for i in range(num_train)]
-  loss = - probs[row_idx, correct_class_idx].log().sum() / num_train
+  loss = - probs[torch.arange(num_train), y].log().sum() / num_train
 
   # compute the gradient
   indicator_matrix = torch.zeros_like(scores) # dimension (NxC)
