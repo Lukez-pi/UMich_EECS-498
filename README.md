@@ -6,3 +6,4 @@ This is a repository that contains my solution for assignments from the course E
   * `fully_connected_networks`: Implemented modularized **multi-layer fully-connected neural networks** from scratch, implemented various **optimizers** including SGD+Momentum, RMSProp, Adam, and implemented **dropout**.
 * A4: 
   * `network_visualization`: Implemented **saliency maps**, **adversarial attacks** and **synthesized images**
+  * `style_transfer`: Performed neural style transfer by computing the **gram matrix** and using **total variation regularization**
