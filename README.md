@@ -5,5 +5,6 @@ This is a repository that contains my solution for assignments from the course E
 * A3: 
   * `fully_connected_networks`: Implemented modularized **multi-layer fully-connected neural networks** from scratch, implemented various **optimizers** including SGD+Momentum, RMSProp, Adam, and implemented **dropout**.
 * A4: 
+  * `pytorch_autograd_and_nn`: Practiced using `autograd` to perform automatic gradient computation, used `nn.Module` and `nn.Sequential` to build fully-connected and convolutional networks, and implemented **PreResNet32** (a variant of ResNet) for CIFAR-10 image classification.
   * `network_visualization`: Implemented **saliency maps**, **adversarial attacks** and **synthesized images**
   * `style_transfer`: Performed neural style transfer by computing the **gram matrix** and using **total variation regularization**
