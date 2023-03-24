@@ -10,3 +10,5 @@ Here is a high-level overview of the topics covered in each assignment, the assi
   * `rnn_lstm_attention_captioning`: Implemented **RNN**, **LSTM**, **LSTM + attention** architectures for training an image captioning model.
   * `network_visualization`: Implemented **saliency maps**, **adversarial attacks** and **synthesized images**
   * `style_transfer`: Performed neural style transfer by computing the **gram matrix** and using **total variation regularization**
+* A6:
+  * ` variational_autoencoders`: Implemented VAE and conditional VAE to generate new sample digits using the MNIST dataset
