@@ -12,4 +12,4 @@ Here is a high-level overview of the topics covered in each assignment, the assi
   * `style_transfer`: Performed neural style transfer by computing the **gram matrix** and using **total variation regularization**
 * [A6](A6):
   * `variational_autoencoders`: Implemented VAE and conditional VAE to generate new sample digits using the MNIST dataset
-  * 'generative_adversarial_networks`: Implemented Vanilla GAN, Least Squares GAN (LS-GAN) and Deeply Convolutional GANS (DC-GAN) to generate new sample digits using the MNIST dataset
+  * `generative_adversarial_networks`: Implemented Vanilla GAN, Least Squares GAN (LS-GAN) and Deeply Convolutional GANS (DC-GAN) to generate new sample digits using the MNIST dataset
