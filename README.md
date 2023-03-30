@@ -5,6 +5,7 @@ Here is a high-level overview of the topics covered in each assignment, the assi
 * [A2](A2): Implemented a multi-class **support vector machine classifier**, a **softmax regression classifier**, and a **two-layer neural network classifier**. Wrote vectorized gradient code for back-propagation.
 * [A3](A3): 
   * `fully_connected_networks`: Implemented modularized **multi-layer fully-connected neural networks** from scratch, implemented various **optimizers** including SGD+Momentum, RMSProp, Adam, and implemented **dropout**.
+  * `convolutional_networks`: Implemented **convolutional neural networks** from scratch, including the forward and backward pass of **convolution**, **max pooling** and **(spatial) batch norm** operations.
 * [A4](A4): 
   * `pytorch_autograd_and_nn`: Practiced using `autograd` to perform automatic gradient computation, used `nn.Module` and `nn.Sequential` to build fully-connected and convolutional networks, and implemented **PreResNet32** (a variant of ResNet) for CIFAR-10 image classification.
   * `rnn_lstm_attention_captioning`: Implemented **RNN**, **LSTM**, **LSTM + attention** architectures for training an image captioning model.
